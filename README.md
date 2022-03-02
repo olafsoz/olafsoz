@@ -1,6 +1,33 @@
-<h1 align="center">Hi there 👋</h1>
-<p align="center">I am Olafs Ozolins, a software engineer from Riga, Latvia. </p>
-<p align="center">🚀 Currently I am learning everything there is to know about PHP and the things surrounding it.</p>
+<h1 align="center">Hey there 👋</h1>
+
+```php
+class SoftwareEngineer {
+
+    private static array $info = [
+            'Name' => 'Olafs',
+            'Surname' => 'Ozolins',
+            'Age' => 19,
+            'From' => 'Riga, Latvia',
+            'Skills' => ['PHP', 'MYSQL', 'HTML5', 'CSS3', 'LARAVEL', 'COMPOSER', 'GIT'],
+            'Willingness to learn' => 'Through the roof!'
+        ];
+    
+    public static function getInfo(): array {
+        return self::$info;
+    }
+}
+
+foreach (SoftwareEngineer::getInfo() as $title => $value) {
+    if ($title === 'Skills') {
+        echo $title . ' - ';
+        echo implode(', ', $value) . PHP_EOL;
+    } else {
+        echo $title . ' - ' . $value . PHP_EOL;
+    }
+}
+```
+<!-- <p align="center">My name is Olafs Ozolins, a 19 year old software engineer from Riga, Latvia. </p>
+<p align="center">Currently I am learning everything there is to know about PHP and the things surrounding it.</p>
 <h2 align="center">Toolbox 🧰</h2>
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP" width="50" height="50"/>
@@ -16,7 +43,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="50" height="50" />
   &ensp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/composer/composer-original.svg" alt="Composer" width="50" height="50" />
-</div>
+</div> -->
 <h2 align="center">My top 3 projects 🔧</h2>
 <div align="center">
   <p>First project - <a href="https://github.com/olafsoz/StocksHW">Stocks</a>, where it displays some stocks by default and one can search for whatever stock is on the market!</p>
