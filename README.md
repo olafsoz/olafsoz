@@ -44,7 +44,7 @@ foreach (SoftwareEngineer::getInfo() as $title => $value) {
   &ensp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/composer/composer-original.svg" alt="Composer" width="50" height="50" />
 </div> -->
-<h2 align="center">My top 3 projects 🔧</h2>
+<h2 align="center">My 3 favourite projects 🔧</h2>
 <div align="center">
   <p>First project - <a href="https://github.com/olafsoz/StocksHW">Stocks</a>, where it displays some stocks by default and one can search for whatever stock is on the market!</p>
   <p>Second project - <a href="https://github.com/olafsoz/LoginDB">RegisterNLogin</a>, here one can register and login/logout. This was the first time I did such a thing!</p>
