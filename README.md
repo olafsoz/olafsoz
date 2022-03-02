@@ -1,7 +1,7 @@
 <h1 align="center">Hi there 👋</h1>
 <p align="center">I am Olafs Ozolins, a software engineer from Riga, Latvia. </p>
 <p align="center">🚀 Currently I am learning everything there is to know about PHP and the things surrounding it.</p>
-<h2 align="center">🧰 Toolbox</h2>
+<h2 align="center">Toolbox 🧰</h2>
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP" width="50" height="50"/>
   &ensp;
