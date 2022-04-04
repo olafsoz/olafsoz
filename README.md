@@ -8,7 +8,7 @@ class SoftwareEngineer {
             'Surname' => 'Ozolins',
             'Age' => 19,
             'From' => 'Riga, Latvia',
-            'Skills' => ['PHP', 'MYSQL', 'HTML5', 'CSS3', 'JavaScript', 'LARAVEL', 'COMPOSER', 'GIT'],
+            'Skills' => ['PHP', 'MYSQL', 'HTML5', 'CSS3', 'JavaScript', 'Laravel', 'Composer', 'Git'],
             'Willingness to learn' => 'Through the roof!'
         ];
     
