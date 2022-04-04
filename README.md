@@ -28,7 +28,7 @@ foreach (SoftwareEngineer::getInfo() as $title => $value) {
 ```
 <h2 align="center">My 3 favourite projects 🔧</h2>
 <div align="center">
-  <p>First project - <a href="https://github.com/olafsoz/StocksHW">Stocks</a>, where it displays some stocks by default and one can search for whatever stock is on the market!</p>
+  <p>First project - <a href="https://github.com/olafsoz/StocksHW">Stocks</a>, here some stocks are shown by default and one can search for whatever stock is on the market! This was made using Finnhub Stock API</p>
   <p>Second project - <a href="https://github.com/olafsoz/BookingApp">BookingApp</a>, here one can register and login/logout, then either list or book an apartment. This was the first time I did such a thing and it was a blast!</p>
   <p>Third project - <a href="https://github.com/olafsoz/Services-Repositories-DI">Services-Repositories-DI</a>, here I made a simple page for a store using DDD - services, repositories, dependency injection. Understanding this really made it easier to start learning Laravel!</p>
 </div>
